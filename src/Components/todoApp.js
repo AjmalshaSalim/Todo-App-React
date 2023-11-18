@@ -46,7 +46,7 @@ class TodoApp extends Component {
 
                 <form className='inputContainer' onSubmit={this.saveData}>
                     <h1>Todo App</h1>
-                    <input maxlength={30} className='inputSection' placeholder="Enter Here" value={input} onChange={this.handleChange}></input>
+                    <input maxlength={30} className='inputSection' placeholder="Enter Here" value={input} onChange={this.handleChange} required></input>
                 </form>
 
                 <ul>
